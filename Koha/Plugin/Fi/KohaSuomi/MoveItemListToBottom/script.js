@@ -6,6 +6,10 @@ $(document).ready(function () {
     $('#cat_additem #cataloguing_additem_itemlist').prepend($('#cat_additem #cataloguing_additem_itemlist>.row'));
     
     document.getElementById("cataloguing_additem_newitem").scrollIntoView();
+
+    var table = $("#itemst").DataTable();
+    table.fixedHeader.disable();
+
 });
 
 /// LOPPU ///
