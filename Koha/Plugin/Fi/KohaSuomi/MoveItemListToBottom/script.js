@@ -9,6 +9,7 @@ $(document).ready(function () {
 
     var table = $("#itemst").DataTable();
     table.fixedHeader.disable();
+    table.fixedHeader.enable(); 
 
 });
 
